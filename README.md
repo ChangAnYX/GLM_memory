@@ -4,11 +4,11 @@ GLM+langchain 长久记忆（尝试阶段）
 受AI西部小镇有感
 利用faiss 存储用户与模型的对话。并在新对话展开时，基于用户问题而搜索。
 先尝试了两种方法：
-  将搜索到的对话添加进prompt
-  测试让其记住简单的约定  
-  ![Uploading 图片.png…]()
+  将搜索到的对话添加进prompt，
+  测试让其记住简单的约定。
+  ![图片](https://github.com/ChangAnYX/GLM_memory/assets/126737340/a971caaa-a802-400a-a09f-d4450ed0b170)
 
-  将搜索到的对话添加进history
+  将搜索到的对话添加进history，
   测设效果稍好但也差不多。
 
 不论是因为LLM的聪明程度问题，还是因为记忆方式抑或prompt格式问题
