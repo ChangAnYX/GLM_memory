@@ -6,6 +6,7 @@ GLM+langchain 长久记忆（尝试阶段）
 先暂时尝试了三种种方法：
   #### 将搜索到的对话添加进prompt，
   测试让其记住简单的约定。
+  
   ![图片](https://github.com/ChangAnYX/GLM_memory/assets/126737340/a971caaa-a802-400a-a09f-d4450ed0b170)
 
   #### 将搜索到的对话添加进history，
